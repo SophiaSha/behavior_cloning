@@ -25,6 +25,7 @@ Per the nVidia model and the form discussions, the Keras ELU() activation was se
 For purposes of the submission, as documented above, ONLY the sample data was used. Attempts to generate data did not give good results as my driving skills proved to be unworthy of a training model. This is not to say that observing the model, and biasing the set did not occur! Per the reviewer's request, I have illustrated the primary problems with sample data and the steps taken to correct them.
 
 Problem 1: Car going for a swim
+
 ![swim](./pic/p1.png)
 
 The first attempt at the model clearly indicated the model did not correct quickly enough;
@@ -32,6 +33,7 @@ on the first turn requiring corrective input of more than a fractional degree, t
 hit and then the car went in the lake. Not good!
 
 Problem 2: Hard turn crash
+
 ![crash](./pic/p2.png)
 
 Correction/augmentation solution: Bias to more input!
